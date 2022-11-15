@@ -90,7 +90,7 @@ section {
 
  /* slide */
  .slide {
-     min-height: 80vh;
+     min-height: 100vh;
      display: flex;
      align-items: center;
      justify-content: center;
@@ -195,9 +195,9 @@ section {
 }
 
 .btn-brand:hover {
-    background-color: #447ccf;
-    border-color: #65c7ff;
-    color: #fff;
+    background-color: white;
+    border-color: black;
+    color: black;
 }
 
 .intro {margin-bottom: 36px;
@@ -228,7 +228,7 @@ text-align: center;}
 
 
 #milestone {
-    background: linear-gradient(rgba(12, 12, 19, 0.85), rgba(12, 10, 24, 0.85)), url(../img/bg_banner1.jpg);
+    background: linear-gradient(rgba(12, 12, 19, 0.85), rgba(12, 10, 24, 0.85)), url(../img/couleur1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -498,28 +498,20 @@ input.form-control {
     border-color: var(--brand);
 }
 
+/*MAP*/
+
 .map-responsive{
-
     overflow:hidden;
-    
     padding-bottom:26.25%;
-
     position:relative;
-
     height:0;
-
 }
 
 .map-responsive iframe{
-
     left:0;
-
     top:0;
-    
     height:100%;
-
     width:100%;
-
     position:absolute;
-
 }
+
